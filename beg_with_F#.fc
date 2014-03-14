@@ -31,3 +31,17 @@ let list1 = [3;7;1]
 let list2 = [90;120;33]
 let list3 = list1 @ list2
 printfn "The new list is: %A" (list3)
+
+//Добавить элемент в конец списка
+let rec AddToEndofList list x = 
+    match list with
+    |hd::tl -> (hd::(AddToEndofList tl x))
+    |[] -> [x]
+
+printfn "%A" (AddToEndofList list123 4)
+
+//добавить элемент в начало списка
+let newlist = 555::list1
+printfn "newlist %A" (newlist)
+
+
