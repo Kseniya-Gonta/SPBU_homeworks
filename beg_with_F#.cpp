@@ -25,3 +25,9 @@ let rec sum zero m =
 
 printfn "The sum is %A" (sum 0 list123)
 
+
+// сцепить два списка
+let list1 = [3;7;1]
+let list2 = [90;120;33]
+let list3 = list1 @ list2
+printfn "The new list is: %A" (list3)
