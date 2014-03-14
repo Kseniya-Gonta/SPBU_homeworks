@@ -1,3 +1,4 @@
+//рещение квадратного уравнения
 let solve a b c = 
     let d = sqrt(b * b - 4.0 * a * c)
     let x1 = (-b + d) * 0.5 / a
@@ -7,7 +8,7 @@ let (x1, x2) = solve 1.0 -2.0 -3.0
 printfn "%A" (x1)
 printfn "%A" (x2)
 
-
+//длина списка
 let list123 = [ 1; 2; 3 ]
 let rec len l = 
     match l with
@@ -16,4 +17,11 @@ let rec len l =
 printfn "(len list123) = %A " (len list123 )
 
 
+//сумма элементов списка
+let rec sum zero m = 
+    match m with
+    |hd::tl -> hd + sum zero tl
+    |[] -> zero
+
+printfn "The sum is %A" (sum 0 list123)
 
