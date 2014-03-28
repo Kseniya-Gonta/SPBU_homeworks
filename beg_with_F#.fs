@@ -67,4 +67,10 @@ let result2 = add 6 7
 let finalResult = add result1 result2
 printfn "answer = %A" (finalResult)
 
+//композиция функций
+let add x y = x + y
+
+let finalResult = add 6 7 |> add 4 |> add 6
+printfn "answer = %A" (finalResult)
+
 
