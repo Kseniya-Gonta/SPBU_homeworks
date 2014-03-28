@@ -73,4 +73,10 @@ let add x y = x + y
 let finalResult = add 6 7 |> add 4 |> add 6
 printfn "answer = %A" (finalResult)
 
+//Pattern Matching
+let x = true
+let booleanToString x = 
+    match x with false -> "False" | _->"True"
+printfn "It's %A" (booleanToString x)
+
 
