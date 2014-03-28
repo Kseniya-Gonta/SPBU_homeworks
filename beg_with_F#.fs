@@ -49,4 +49,13 @@ let  rhyme = "Jack" + "and" + "Jill"
 printf "%A" (rhyme)
 
 
+//присвоить другое значение уже объявленной переменной
+let x = 1
+let mathPuzzle =
+    let x = x + 4
+    let x = x + 13
+    x
+
+printf "x = %A" (mathPuzzle)
+
 
