@@ -44,4 +44,9 @@ printfn "%A" (AddToEndofList list123 4)
 let newlist = 555::list1
 printfn "newlist %A" (newlist)
 
+//соединить строки
+let  rhyme = "Jack" + "and" + "Jill"
+printf "%A" (rhyme)
+
+
 
