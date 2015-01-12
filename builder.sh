@@ -21,7 +21,7 @@ function checking() {
 		fi
 	done < check.txt
 	
-	email_ok
+	
 }
 
 function email_ok() {
@@ -35,3 +35,4 @@ function email_fail() {
 
 cloning
 checking
+email_ok
