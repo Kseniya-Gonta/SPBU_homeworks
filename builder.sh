@@ -11,7 +11,7 @@ function cloning() {
 
 
 function checking() {
-	xbuild Geometry/Triangles.sln &> build.txt
+	xbuild &SOLUTION &> build.txt
 	
 	while read p; do
 		if [ ! -f $p ]
