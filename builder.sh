@@ -11,7 +11,7 @@ function cloning() {
 
 
 function checking() {
-	xbuild &SOLUTION &> build.txt
+	xbuild $SOLUTION &> build.txt
 	
 	while read p; do
 		if [ ! -f $p ]
