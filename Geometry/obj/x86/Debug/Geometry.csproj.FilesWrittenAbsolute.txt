@@ -1,0 +1,7 @@
+/Users/ksenya/Projects/Triangles/Geometry/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/ksenya/Projects/Triangles/Geometry/bin/Debug/Geometry.exe.mdb
+/Users/ksenya/Projects/Triangles/Geometry/bin/Debug/Geometry.exe
+/Users/ksenya/Projects/Triangles/Geometry/obj/x86/Debug/Geometry.exe
+/Users/ksenya/Projects/Triangles/Geometry/obj/x86/Debug/Geometry.exe.mdb
+/Users/ksenya/Projects/Triangles/Geometry/bin/Debug/Triangles.dll
+/Users/ksenya/Projects/Triangles/Geometry/bin/Debug/Triangles.dll.mdb
