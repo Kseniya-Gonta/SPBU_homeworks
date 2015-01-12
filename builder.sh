@@ -9,21 +9,19 @@ function cloning() {
 	fi
 }
 
-function building() {
-	if [ xbuild Geometry/Triangles.sln &> build.txt ]
-		then email_ok
-	else email_fail build.txt
-	fi
-}
 
 function checking() {
+	xbuild Geometry/Triangles.sln &> build.txt
+	
 	while read p; do
 		if [ ! -f $p ]
 		then
-			email_fail
+			email_fail build.txt
 			exit 1
 		fi
 	done < check.txt
+	
+	email_ok
 }
 
 function email_ok() {
