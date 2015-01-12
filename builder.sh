@@ -34,4 +34,4 @@ function email_fail() {
 }
 
 cloning
-building
+checking
