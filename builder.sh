@@ -11,15 +11,16 @@ function email_fail() {
 }
 function cloning() {
 	rm -rf $FOLDER
-	if [ git clone $REPOSITORY &> clone.txt ]
-		then email_ok
-	else email_fail clone.txt
+	if [ !git clone $REPOSITORY &> clone.txt ]
+		then 
+			email_fail clone.txt
+			exit 1
 	fi
 }
 
 
 function checking() {
-	xbuild $SOLUTION &> build.txt
+	
 	
 	while read p; do
 		if [ ! -f $p ]
@@ -31,8 +32,6 @@ function checking() {
 	
 	
 }
-
-
 
 cloning
 checking
