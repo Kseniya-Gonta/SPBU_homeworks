@@ -1,2 +1,2 @@
-/Users/ksenya/Projects/Triangles/Geometry/bin/Debug/Geometry.exe 
-/Users/ksenya/Projects/Triangles/Geometry/bin/Debug/Triangles.dll 
+/Geometry/bin/Debug/Geometry.exe 
+/Geometry/bin/Debug/Triangles.dll 
