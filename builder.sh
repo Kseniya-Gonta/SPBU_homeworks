@@ -34,3 +34,6 @@ function email_ok() {
 function email_fail() {
 	mutt -a $1 -s "Build" -- $EMAIL_LOG <<< "Build failed!" 
 }
+
+cloning
+building
