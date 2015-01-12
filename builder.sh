@@ -1,6 +1,14 @@
 #!/bin/bash
 
 source config.sh 
+function email_ok() {
+	
+	mail  -s "Build" $EMAIL_LOG <<< "It's ok!"
+}
+
+function email_fail() {
+	mutt -a $1 -s "Build" -- $EMAIL_LOG <<< "Build failed!" 
+}
 function cloning() {
 	rm -rf $FOLDER
 	if [ git clone $REPOSITORY &> clone.txt ]
@@ -24,14 +32,7 @@ function checking() {
 	
 }
 
-function email_ok() {
-	
-	mail  -s "Build" $EMAIL_LOG <<< "It's ok!"
-}
 
-function email_fail() {
-	mutt -a $1 -s "Build" -- $EMAIL_LOG <<< "Build failed!" 
-}
 
 cloning
 checking
