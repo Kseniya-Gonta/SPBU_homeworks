@@ -2,8 +2,7 @@
 QML_IMPORT_PATH =
 
 # The .cpp file which was generated for your project. Feel free to hack it.
-SOURCES += main.cpp \
-    imageprovider.cpp
+SOURCES += main.cpp
 
 RESOURCES += qml.qrc
 QT += qml
@@ -16,5 +15,4 @@ include(qtquick1applicationviewer/qtquick1applicationviewer.pri)
 # Default rules for deployment.
 include(deployment.pri)
 
-HEADERS += \
-    imageprovider.h
+HEADERS +=
