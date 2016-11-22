@@ -58,6 +58,9 @@ namespace RegExpTest
                         e.GetType(), e.Message )
                 );
             }
+
+
+            Assert.Throws<ArgumentNullException>(()=>postIndexPalidator.CheckValidness(null));
         }
     }
 }
