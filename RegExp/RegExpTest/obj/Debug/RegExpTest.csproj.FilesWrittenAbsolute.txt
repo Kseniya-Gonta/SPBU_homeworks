@@ -1,0 +1,8 @@
+/Users/ksenya/RiderProjects/RegExp/RegExpTest/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/ksenya/RiderProjects/RegExp/RegExpTest/bin/Debug/RegExpTest.dll.mdb
+/Users/ksenya/RiderProjects/RegExp/RegExpTest/bin/Debug/RegExpTest.dll
+/Users/ksenya/RiderProjects/RegExp/RegExpTest/obj/Debug/RegExpTest.dll
+/Users/ksenya/RiderProjects/RegExp/RegExpTest/obj/Debug/RegExpTest.dll.mdb
+/Users/ksenya/RiderProjects/RegExp/RegExpTest/bin/Debug/nunit.framework.dll
+/Users/ksenya/RiderProjects/RegExp/RegExpTest/bin/Debug/RegExp.exe
+/Users/ksenya/RiderProjects/RegExp/RegExpTest/bin/Debug/RegExp.exe.mdb
