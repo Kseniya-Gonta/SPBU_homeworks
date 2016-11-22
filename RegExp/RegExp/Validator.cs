@@ -19,6 +19,10 @@ namespace RegExp
 
         public bool CheckValidness(string str)
         {
+            if (str == String.Empty)
+            {
+                throw new ArgumentNullException();
+            }
             return Regex.Match(str, Pattern).Success;
         }
     }

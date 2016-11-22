@@ -32,6 +32,32 @@ namespace RegExpTest
 
             Assert.IsTrue(phoneValidator.CheckValidness("+7(981)-835-16-88"));
             Assert.IsTrue(phoneValidator.CheckValidness("89818351688"));
+
+            //Assert.IsFalse(postIndexPalidator.CheckValidness(""));
+            //Assert.IsFalse(emailValidator.CheckValidness(""));
+            //Assert.IsFalse(postIndexPalidator.CheckValidness(""));
+        }
+
+        [Test]
+        public void MethodTest()
+        {
+            var postIndexPalidator = new PostIndexValidator();
+            try
+            {
+                var obj = postIndexPalidator.CheckValidness(null);
+                Assert.Fail("An exception should have been thrown");
+            }
+            catch (ArgumentNullException ae)
+            {
+                Assert.AreEqual( "Value cannot be null.\nParameter name: input", ae.Message );
+            }
+            catch (Exception e)
+            {
+                Assert.Fail(
+                    string.Format( "Unexpected exception of type {0} caught: {1}",
+                        e.GetType(), e.Message )
+                );
+            }
         }
     }
 }
