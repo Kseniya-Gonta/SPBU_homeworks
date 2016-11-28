@@ -47,11 +47,7 @@
     <Compile Include="Entities\Parent.cs" />
     <Compile Include="Entities\Sex.cs" />
     <Compile Include="Entities\Student.cs" />
-    <Compile Include="Factory\BotanUniversityGod.cs" />
-    <Compile Include="Factory\CoolParentUnivesityGod.cs" />
     <Compile Include="Factory\IGod.cs" />
-    <Compile Include="Factory\ParentUniversityGod.cs" />
-    <Compile Include="Factory\StudentUniversityGod.cs" />
     <Compile Include="Factory\UniversityGod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

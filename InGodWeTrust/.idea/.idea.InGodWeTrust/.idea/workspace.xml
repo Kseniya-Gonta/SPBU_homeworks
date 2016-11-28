@@ -21,28 +21,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StudentUniversityGod.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../InGodWeTrust/Factory/StudentUniversityGod.cs">
+      <file leaf-file-name="IGod.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../InGodWeTrust/Factory/IGod.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="9" selection-start-line="6" selection-start-column="8" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1480329761000" expanded="true" signature="77:228" ph="{...}" />
-                <marker date="1480329761000" expanded="true" signature="168:222" ph="{...}" />
+                <marker date="1480331391000" expanded="true" signature="22:168" ph="{...}" />
+                <marker date="1480331391000" expanded="true" signature="50:166" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BotanUniversityGod.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../InGodWeTrust/Factory/BotanUniversityGod.cs">
+      <file leaf-file-name="UniversityGod.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../InGodWeTrust/Factory/UniversityGod.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="612">
+              <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
               <folding>
-                <marker date="1480329762000" expanded="true" signature="22:185" ph="{...}" />
-                <marker date="1480329762000" expanded="true" signature="75:183" ph="{...}" />
-                <marker date="1480329762000" expanded="true" signature="125:177" ph="{...}" />
+                <marker date="1480332079000" expanded="true" signature="37:1171" ph="{...}" />
+                <marker date="1480332079000" expanded="true" signature="76:1169" ph="{...}" />
+                <marker date="1480332079000" expanded="true" signature="277:806" ph="{...}" />
+                <marker date="1480332079000" expanded="true" signature="842:916" ph="{...}" />
+                <marker date="1480332079000" expanded="true" signature="959:1048" ph="{...}" />
+                <marker date="1480332079000" expanded="true" signature="1094:1163" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -62,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Student.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../InGodWeTrust/Entities/Student.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -71,19 +74,6 @@
                 <marker date="1480329762000" expanded="true" signature="22:270" ph="{...}" />
                 <marker date="1480329762000" expanded="true" signature="56:268" ph="{...}" />
                 <marker date="1480329762000" expanded="true" signature="71:219" ph="/* public Student(string name, int age, Sex sex, string patronymic) : base(name, age, sex) ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Parent.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../InGodWeTrust/Entities/Parent.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-              <folding>
-                <marker date="1480329762000" expanded="true" signature="56:285" ph="{...}" />
-                <marker date="1480329762000" expanded="true" signature="71:233" ph="/* public Parent(string name, int age, Sex sex, int numberOfChildren) : base(name, age, sex) ... */" />
               </folding>
             </state>
           </provider>
@@ -130,33 +120,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoolParentUnivesityGod.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../InGodWeTrust/Factory/CoolParentUnivesityGod.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-              <folding>
-                <marker date="1480329762000" expanded="true" signature="79:192" ph="{...}" />
-                <marker date="1480329762000" expanded="true" signature="129:186" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParentUniversityGod.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../InGodWeTrust/Factory/ParentUniversityGod.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <marker date="1480329762000" expanded="true" signature="22:187" ph="{...}" />
-                <marker date="1480329762000" expanded="true" signature="76:185" ph="{...}" />
-                <marker date="1480329762000" expanded="true" signature="126:179" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="IdeDocumentHistory">
@@ -176,6 +139,8 @@
         <option value="$PROJECT_DIR$/../../InGodWeTrust/CoolParent.cs" />
         <option value="$PROJECT_DIR$/../../InGodWeTrust/CoolParentUnivesityGod.cs" />
         <option value="$PROJECT_DIR$/../../InGodWeTrust/ParentUniversityGod.cs" />
+        <option value="$PROJECT_DIR$/../../InGodWeTrust/Factory/IGod.cs" />
+        <option value="$PROJECT_DIR$/../../InGodWeTrust/Factory/UniversityGod.cs" />
       </list>
     </option>
   </component>
@@ -304,12 +269,12 @@
       <option name="presentableId" value="Default" />
       <updated>1480275558263</updated>
       <workItem from="1480275561430" duration="5819000" />
-      <workItem from="1480329759097" duration="158000" />
+      <workItem from="1480329759097" duration="1831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5977000" />
+    <option name="totallyTimeSpent" value="7650000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,7 +325,8 @@
         <state relative-caret-position="136">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <marker date="1480329761000" expanded="true" signature="65:181" ph="{...}" />
+            <marker date="1480331391000" expanded="true" signature="22:168" ph="{...}" />
+            <marker date="1480331391000" expanded="true" signature="50:166" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -370,8 +336,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1480329761000" expanded="true" signature="64:209" ph="{...}" />
-            <marker date="1480329761000" expanded="true" signature="125:203" ph="/* public bool Save(Human human) ... */" />
+            <marker date="1480332079000" expanded="true" signature="37:1171" ph="{...}" />
+            <marker date="1480332079000" expanded="true" signature="76:1169" ph="{...}" />
+            <marker date="1480332079000" expanded="true" signature="277:806" ph="{...}" />
+            <marker date="1480332079000" expanded="true" signature="842:916" ph="{...}" />
+            <marker date="1480332079000" expanded="true" signature="959:1048" ph="{...}" />
+            <marker date="1480332079000" expanded="true" signature="1094:1163" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -380,10 +350,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="9" selection-start-line="6" selection-start-column="8" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <marker date="1480329761000" expanded="true" signature="77:228" ph="{...}" />
-            <marker date="1480329761000" expanded="true" signature="168:222" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -391,11 +358,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <marker date="1480329762000" expanded="true" signature="22:185" ph="{...}" />
-            <marker date="1480329762000" expanded="true" signature="75:183" ph="{...}" />
-            <marker date="1480329762000" expanded="true" signature="125:177" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -450,10 +413,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding>
-            <marker date="1480329762000" expanded="true" signature="79:192" ph="{...}" />
-            <marker date="1480329762000" expanded="true" signature="129:186" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -461,11 +421,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1480329762000" expanded="true" signature="22:187" ph="{...}" />
-            <marker date="1480329762000" expanded="true" signature="76:185" ph="{...}" />
-            <marker date="1480329762000" expanded="true" signature="126:179" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -477,27 +433,6 @@
             <marker date="1480275574000" expanded="true" signature="6:47" ph="..." />
             <marker date="1480275574000" expanded="true" signature="100:179" ph="{...}" />
             <marker date="1480275574000" expanded="true" signature="153:173" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../InGodWeTrust/Factory/IGod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <marker date="1480329761000" expanded="true" signature="65:181" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../InGodWeTrust/Factory/UniversityGod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1480329761000" expanded="true" signature="64:209" ph="{...}" />
-            <marker date="1480329761000" expanded="true" signature="125:203" ph="/* public bool Save(Human human) ... */" />
           </folding>
         </state>
       </provider>
@@ -517,10 +452,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding>
-            <marker date="1480329762000" expanded="true" signature="79:192" ph="{...}" />
-            <marker date="1480329762000" expanded="true" signature="129:186" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -528,10 +460,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="9" selection-start-line="6" selection-start-column="8" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <marker date="1480329761000" expanded="true" signature="77:228" ph="{...}" />
-            <marker date="1480329761000" expanded="true" signature="168:222" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -539,11 +468,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <marker date="1480329762000" expanded="true" signature="22:187" ph="{...}" />
-            <marker date="1480329762000" expanded="true" signature="76:185" ph="{...}" />
-            <marker date="1480329762000" expanded="true" signature="126:179" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -551,11 +476,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1480329762000" expanded="true" signature="22:185" ph="{...}" />
-            <marker date="1480329762000" expanded="true" signature="75:183" ph="{...}" />
-            <marker date="1480329762000" expanded="true" signature="125:177" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -614,6 +535,32 @@
             <marker date="1480329762000" expanded="true" signature="22:270" ph="{...}" />
             <marker date="1480329762000" expanded="true" signature="56:268" ph="{...}" />
             <marker date="1480329762000" expanded="true" signature="71:219" ph="/* public Student(string name, int age, Sex sex, string patronymic) : base(name, age, sex) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../InGodWeTrust/Factory/IGod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1480331391000" expanded="true" signature="22:168" ph="{...}" />
+            <marker date="1480331391000" expanded="true" signature="50:166" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../InGodWeTrust/Factory/UniversityGod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+          <folding>
+            <marker date="1480332079000" expanded="true" signature="37:1171" ph="{...}" />
+            <marker date="1480332079000" expanded="true" signature="76:1169" ph="{...}" />
+            <marker date="1480332079000" expanded="true" signature="277:806" ph="{...}" />
+            <marker date="1480332079000" expanded="true" signature="842:916" ph="{...}" />
+            <marker date="1480332079000" expanded="true" signature="959:1048" ph="{...}" />
+            <marker date="1480332079000" expanded="true" signature="1094:1163" ph="{...}" />
           </folding>
         </state>
       </provider>

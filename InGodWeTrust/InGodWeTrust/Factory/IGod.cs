@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace InGodWeTrust
+﻿namespace InGodWeTrust
 {
     public interface IGod
     {
