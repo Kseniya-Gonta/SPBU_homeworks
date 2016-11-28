@@ -2,9 +2,9 @@
 {
     public class Human
     {
-        public string Name { get; }
-        public int Age { get; }
-        public Sex Sex { get; }
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public Sex Sex { get; set; }
 
         /*public Human(string name, int age, Sex sex)
         {

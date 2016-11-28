@@ -2,11 +2,14 @@
 {
     public class Parent : Human
     {
-        /*public Parent(string name, int age, Sex sex, int numberOfChildren) : base(name, age, sex)
+        public Parent(string name, int age)
         {
-            NumberOfChildren = numberOfChildren;
-        }*/
+            this.Name = name;
+            this.Age = age;
+            this.Sex = Sex.Male;
+            this.NumberOfChildren = 1;
+        }
 
-        public int NumberOfChildren { get; }
+        public int NumberOfChildren { get; set; }
     }
 }
