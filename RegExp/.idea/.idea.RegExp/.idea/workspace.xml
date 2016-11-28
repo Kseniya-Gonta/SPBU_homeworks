@@ -238,6 +238,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="860c9411-a11a-436c-99d2-0c197ce97f21" name="Default" comment="" />
@@ -252,12 +255,12 @@
       <workItem from="1479806164188" duration="1908000" />
       <workItem from="1479809392932" duration="39000" />
       <workItem from="1479824605784" duration="219000" />
-      <workItem from="1479824899558" duration="2697000" />
+      <workItem from="1479824899558" duration="2952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13613000" />
+    <option name="totallyTimeSpent" value="13868000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
