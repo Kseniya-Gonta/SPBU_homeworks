@@ -49,6 +49,7 @@
     <Compile Include="Entities\Student.cs" />
     <Compile Include="Factory\IGod.cs" />
     <Compile Include="Factory\UniversityGod.cs" />
+    <Compile Include="HumanType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
