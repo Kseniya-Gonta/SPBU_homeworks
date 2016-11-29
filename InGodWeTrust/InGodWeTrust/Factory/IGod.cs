@@ -1,4 +1,6 @@
-﻿namespace InGodWeTrust
+﻿using InGodWeTrust.Entities;
+
+namespace InGodWeTrust.Factory
 {
     public interface IGod
     {

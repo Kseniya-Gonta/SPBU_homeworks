@@ -1,15 +1,17 @@
 ﻿using System;
 
-namespace InGodWeTrust
+namespace InGodWeTrust.Entities
 {
     public class Botan: Student
     {
-        public Botan(string name, Sex sex, int age, string patronymic, int gpa) : base(name, sex, age, patronymic)
+        public Botan(string name, Sex sex, int age, string patronymic, double gpa
+            ,bool isPair, ConsoleColor consoleColor = ConsoleColor.DarkYellow)
+            : base(name, sex, age, patronymic, isPair, consoleColor)
         {
             Gpa = gpa;
         }
 
-        public int Gpa { get; }
+        public double Gpa { get; }
 
         public override string ToString()
         {

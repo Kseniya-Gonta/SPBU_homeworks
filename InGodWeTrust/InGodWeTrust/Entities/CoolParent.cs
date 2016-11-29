@@ -1,27 +1,28 @@
 ﻿using System;
 
-namespace InGodWeTrust
+namespace InGodWeTrust.Entities
 {
     public class CoolParent: Parent
     {
-        public CoolParent(string name, int age, Sex sex, int numberOfChildren, int gpaMoney)
-            : base(name, age, sex, numberOfChildren)
+        public CoolParent(string name, int age, Sex sex, int numberOfChildren, double gpaMoney
+            ,bool isPair, ConsoleColor consoleColor = ConsoleColor.DarkGreen)
+            : base(name, age, sex, numberOfChildren, isPair, consoleColor)
         {
             AmountOfMoney = gpaMoney;
         }
 
-        public int AmountOfMoney { get; }
+        public double AmountOfMoney { get; }
 
-        public override void Print(bool isPair)
+        public override void Print()
         {
             Console.BackgroundColor = ConsoleColor.Black;
-            if (isPair)
+            if (IsPair)
             {
                 Console.BackgroundColor = ConsoleColor.DarkBlue;
             }
-            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.ForegroundColor = ConsoleColor;
             var description = $"Type: CoolParent, Name: {Name}, Sex: {Sex}" +
-                              $",  Age: {Age}, Number of children: {NumberOfChildren}";
+                              $",  Age: {Age}, Number of children: {NumberOfChildren}, ";
 
             var money = "AmountOfMoney:" + AmountOfMoney;
 

@@ -1,12 +1,13 @@
-﻿namespace InGodWeTrust
+﻿using System;
+
+namespace InGodWeTrust.Entities
 {
     public class Parent : Human
     {
-        public Parent(string name, int age, Sex sex, int numberOfChildren)
+        public Parent(string name, int age, Sex sex, int numberOfChildren
+            ,bool isPair, ConsoleColor consoleColor = ConsoleColor.DarkCyan)
+            : base(name, age, sex, isPair, consoleColor)
         {
-            Name = name;
-            Age = age;
-            Sex = sex;
             NumberOfChildren = numberOfChildren;
         }
 
@@ -14,7 +15,7 @@
 
         public override string ToString()
         {
-            return $"Type: Botan, Name: {Name}, Sex: {Sex}, Age: {Age}, Number of children: {NumberOfChildren}";
+            return $"Type: Parent, Name: {Name}, Sex: {Sex}, Age: {Age}, Number of children: {NumberOfChildren}";
     }
     }
 }

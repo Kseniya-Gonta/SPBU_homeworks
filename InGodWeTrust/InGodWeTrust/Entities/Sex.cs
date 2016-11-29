@@ -1,4 +1,4 @@
-﻿namespace InGodWeTrust
+﻿namespace InGodWeTrust.Entities
 {
     public enum Sex
     {

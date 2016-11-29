@@ -2,33 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using InGodWeTrust.Entities;
+using InGodWeTrust.Factory;
 
 namespace InGodWeTrust
 {
     internal class Program
     {
-        private static void PrintPairs(List<Human> pairs)
-        {
-            if (pairs == null)
-            {
-                throw new ArgumentNullException();
-            }
-            var amount = pairs.Count;
-            pairs.Reverse();
-
-            var topPosition = Console.CursorTop - 1;
-            var top = topPosition;
-            Console.SetCursorPosition(0, topPosition);
-
-            for (var i = 0; i < amount; i++)
-            {
-                pairs[i].Print(true);
-                topPosition -= 2;
-                Console.SetCursorPosition(0, topPosition);
-            }
-            Console.SetCursorPosition(0, top + 1);
-        }
-
         public static void Main(string[] args)
         {
 
@@ -53,13 +33,13 @@ namespace InGodWeTrust
             var pairs = new List<Human>();
             for (var i = 0; i < numberOfHumans; i++)
             {
-                universityGod.CreateHuman().Print(false);
+                universityGod.CreateHuman().Print();
                 Console.WriteLine("\n ");
                 pairs.Add(universityGod.CreatePair(universityGod.Humans.Last()));
 
             }
 
-            PrintPairs(pairs);
+            PrintHelper.PrintPairs(pairs);
         }
     }
 }

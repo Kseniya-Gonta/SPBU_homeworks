@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices.ComTypes;
+using InGodWeTrust.Entities;
+using InGodWeTrust.Helpers;
 
-namespace InGodWeTrust
+namespace InGodWeTrust.Factory
 {
     public class UniversityGod: IGod
     {
-        private static readonly Random Random = new Random();
+        public  static Helper Helper = new Helper();
+        public static RandomHelper Randomizer = new RandomHelper();
         public List<Human> Humans = new List<Human>();
-        private static readonly string[] FemaleNames = {"Анна", "Евгения", "Мария"};
-        private static readonly string[] MaleNames = {"Фёдор", "Константин", "Валентин"};
 
-        public int this[int index]
+        public double this[int index]
         {
             get
             {
@@ -21,51 +21,46 @@ namespace InGodWeTrust
             }
         }
 
-        public int GetTotalMoney()
+        public double GetTotalMoney()
         {
             return Enumerable.Range(0, Humans.Count).Sum(x => this[x]);
         }
 
-        private static string Name(Sex sex)
-        {
-            return sex == Sex.Female ? FemaleNames[Random.Next(0,3)] : MaleNames[Random.Next(0,3)];
-        }
 
-        private static string Patronymic(Sex sex)
-        {
-            return MaleNames[Random.Next(0,3)] + (sex == Sex.Female ? "овна" : "ович");
-        }
+
 
         private static int Age(HumanType type)
         {
-            return (type == HumanType.Student) ? Random.Next(17, 25) : Random.Next(37, 45);
+            return (type == HumanType.Student) ? Randomizer.StudentAge() : Randomizer.ParentAge();
         }
         private Human CreateHuman(HumanType type, Sex sex, string name = null,
-            string patronymic = null, int age = 0, double gpaMoney = 0)
+            string patronymic = null, int age = 0, double gpaMoney = 0, bool isPair = false)
         {
             switch (type) {
                 case HumanType.Student:
-                    return patronymic != null ? new Student(Name(sex), sex, age, patronymic)
-                        : new Student(Name(sex), sex, Age(HumanType.Student), Patronymic(sex));
+                    return patronymic != null ? new Student(Helper.RandomName(sex), sex, age, patronymic, isPair)
+                        : new Student(Helper.RandomName(sex), sex, Age(HumanType.Student)
+                            , Helper.RandomPatronymic(sex), isPair);
 
                 case HumanType.Botan:
-                    return patronymic != null ? new Botan(Name(sex), sex, age, patronymic, Convert.ToInt32(gpaMoney))
-                        : new Botan(Name(sex), sex, Age(HumanType.Botan), Patronymic(sex), Random.Next(4, 5));
+                    return patronymic != null ? new Botan(Helper.RandomName(sex), sex, age, patronymic, gpaMoney, isPair)
+                        : new Botan(Helper.RandomName(sex), sex, Age(HumanType.Botan)
+                            , Helper.RandomPatronymic(sex), Randomizer.RandomGpa(), isPair);
 
                 case HumanType.Parent:
-                    return name != null ? new Parent(name, age, sex, 1)
-                        : new Parent(Name(sex), Age(HumanType.Parent), sex, 1);
+                    return name != null ? new Parent(name, age, sex, 1, isPair)
+                        : new Parent(Helper.RandomName(sex), Age(HumanType.Parent), sex, 1, isPair);
 
                 case HumanType.CoolParent:
                     if (name != null)
                     {
-                        return new CoolParent(name, age, sex, 1, Convert.ToInt32(gpaMoney));
+                        return new CoolParent(name, age, sex, 1, gpaMoney, isPair);
                     }
-                    return new CoolParent(Name(sex), Age(HumanType.Parent), sex, 1,
-                        Random.Next((int) Math.Log10(4), (int) Math.Log10(5)));
+                    return new CoolParent(Helper.RandomName(sex), Age(HumanType.Parent), sex, 1,
+                        Randomizer.RandomMoney(), isPair);
 
                 default:
-                    throw new ArgumentException("An invalid type: " + type.ToString());
+                    throw new ArgumentException("An invalid type: " + type);
             }
 
         }
@@ -80,7 +75,7 @@ namespace InGodWeTrust
 
         public Human CreateHuman(Sex sex)
         {
-            var humanType = (sex == Sex.Female) ? (HumanType) Random.Next(2) : (HumanType) Random.Next(4);
+            var humanType = (sex == Sex.Female) ? Randomizer.RandomStudentEntity() : Randomizer.RandomEntity();
 
             switch (Humans.Count)
             {
@@ -114,8 +109,8 @@ namespace InGodWeTrust
             {
                 var botan = human as Botan;
                 Save(CreateHuman(HumanType.CoolParent, Sex.Male
-                    , botan.Patronymic.Substring(0, botan.Patronymic.Length - 4),
-                    null, human.Age + Random.Next(20, 40), Math.Log10(botan.Gpa)));
+                    , Helper.ParentNameFromStudent(botan.Patronymic),
+                    null, Helper.ParentAgeFromStudent(botan.Age), Helper.MoneyFromGpa(botan.Gpa), true));
             }
             else if (human is CoolParent)
             {
@@ -123,16 +118,16 @@ namespace InGodWeTrust
                 parent.NumberOfChildren++;
                 var studentSex = RandomSex();
                 Save(CreateHuman(HumanType.Botan, studentSex, null,
-                    human.Name + ((studentSex == Sex.Female)? "овна" : "ович"),
-                     Random.Next(17, 25), Math.Pow(10, parent.AmountOfMoney)));
+                    Helper.StudentPatronymicFromParent(parent.Name, studentSex),
+                    Helper.StudentAgeFromParent(parent.Age), Helper.GpaFromMoney(parent.AmountOfMoney), true));
             }
 
             else if (human is Student)
             {
                 Student student = human as Student;
                 Save(CreateHuman(HumanType.Parent, Sex.Male
-                    , student.Patronymic.Substring(0, student.Patronymic.Length - 4),
-                    null, human.Age + Random.Next(20, 40)));
+                    , Helper.ParentNameFromStudent(student.Patronymic),
+                    null, Helper.ParentAgeFromStudent(student.Age), 0, true));
             }
             else if (human is Parent)
             {
@@ -140,8 +135,8 @@ namespace InGodWeTrust
                 parent.NumberOfChildren++;
                 var studentSex = RandomSex();
                 Save(CreateHuman(HumanType.Student, studentSex, null,
-                    human.Name + ((studentSex == Sex.Female)? "овна" : "ович"  ), human.Age - Random.Next(20, 40),
-                    Random.Next(4, 5)));
+                    Helper.StudentPatronymicFromParent(parent.Name, studentSex)
+                    , Helper.StudentAgeFromParent(parent.Age), Randomizer.RandomGpa(), true));
             }
 
             return Humans.Last();
@@ -163,7 +158,7 @@ namespace InGodWeTrust
                     return Sex.Female;
 
                 default:
-                    return (Sex) Random.Next(2);
+                    return Randomizer.RandomSex();
             }
         }
 

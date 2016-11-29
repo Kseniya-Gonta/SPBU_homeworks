@@ -1,26 +1,37 @@
 ﻿using System;
 
-namespace InGodWeTrust
+namespace InGodWeTrust.Entities
 {
     public abstract class Human
     {
+        protected Human(string name, int age, Sex sex, bool isPair, ConsoleColor consoleColor)
+        {
+            Name = name;
+            Age = age;
+            Sex = sex;
+            ConsoleColor = consoleColor;
+            IsPair = isPair;
+        }
+
         public string Name { get; set; }
         public int Age { get; set; }
         public Sex Sex { get; set; }
+        public ConsoleColor ConsoleColor { get; }
+        public  bool IsPair { get; }
 
-        //public abstract void Print();
 
-        public virtual void Print(bool isPair)
+        //public virtual void Print(bool isPair)
+        public virtual void Print()
         {
-            if (isPair)
+            if (IsPair)
             {
                 Console.BackgroundColor = ConsoleColor.DarkBlue;
             }
-            Console.ForegroundColor = ConsoleColor.DarkRed;//FontColor();
+            Console.ForegroundColor = ConsoleColor;
             Console.Write(this);
 
             Console.ForegroundColor = ConsoleColor.Gray;
-            if (isPair)
+            if (IsPair)
             {
                 Console.BackgroundColor = ConsoleColor.Black;
             }

@@ -1,12 +1,13 @@
-﻿namespace InGodWeTrust
+﻿using System;
+
+namespace InGodWeTrust.Entities
 {
     public class Student: Human
     {
-        public Student(string name, Sex sex, int age, string patronymic)
+        public Student(string name, Sex sex, int age, string patronymic
+            ,bool isPair, ConsoleColor consoleColor = ConsoleColor.DarkMagenta)
+            : base(name, age, sex, isPair, consoleColor)
         {
-            Name = name;
-            Sex = sex;
-            Age = age;
             Patronymic = patronymic;
         }
 
@@ -15,7 +16,7 @@
 
         public override string ToString()
         {
-            return $"Type: Botan, Name: {Name}, Sex: {Sex}, Age: {Age}, Patronymic: {Patronymic}";
+            return $"Type: Student, Name: {Name}, Sex: {Sex}, Age: {Age}, Patronymic: {Patronymic}";
         }
     }
 }
