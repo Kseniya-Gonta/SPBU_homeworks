@@ -1,23 +1,20 @@
-﻿using System;
-
-namespace InGodWeTrust
+﻿namespace InGodWeTrust
 {
     public class Parent : Human
     {
         public Parent(string name, int age, Sex sex, int numberOfChildren)
         {
-            this.Name = name;
-            this.Age = age;
-            this.Sex = sex;
-            this.NumberOfChildren = numberOfChildren;
+            Name = name;
+            Age = age;
+            Sex = sex;
+            NumberOfChildren = numberOfChildren;
         }
 
         public int NumberOfChildren { get; set; }
 
-        public override void Print()
+        public override string ToString()
         {
-            Console.Write("Type: Parent, Name: {0}, Sex: {1}, Age: {2}, Number of children: {3}"
-                , Name, Sex, Age, NumberOfChildren );
-        }
+            return $"Type: Botan, Name: {Name}, Sex: {Sex}, Age: {Age}, Number of children: {NumberOfChildren}";
+    }
     }
 }
