@@ -95,6 +95,7 @@ def startKmeans(someK):
     # Initializes someK number of centroids for the clustering
     for k in range(0, someK):
         cent = px[numpy.random.randint(0, img_width), numpy.random.randint(0, img_height)]
+        print(cent)
         centroids.append(cent)
 
     print("Random centroids initialized.")
