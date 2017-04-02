@@ -1,0 +1,2 @@
+/Geometry/bin/Debug/Geometry.exe 
+/Geometry/bin/Debug/Triangles.dll 
