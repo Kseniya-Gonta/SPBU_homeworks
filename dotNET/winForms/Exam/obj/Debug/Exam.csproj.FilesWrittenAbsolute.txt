@@ -1,0 +1,8 @@
+/Users/ksenya/winForms/Exam/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
+/Users/ksenya/winForms/Exam/obj/Debug/Exam.Properties.Resources.resources
+/Users/ksenya/winForms/Exam/bin/Debug/Exam.exe.config
+/Users/ksenya/winForms/Exam/bin/Debug/Exam.exe.mdb
+/Users/ksenya/winForms/Exam/bin/Debug/Exam.exe
+/Users/ksenya/winForms/Exam/obj/Debug/Exam.exe
+/Users/ksenya/winForms/Exam/obj/Debug/Exam.exe.mdb
+/Users/ksenya/winForms/Exam/bin/Debug/Mono.CSharp.dll

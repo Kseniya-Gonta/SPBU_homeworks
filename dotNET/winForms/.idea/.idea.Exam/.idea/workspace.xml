@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d716ed4-8312-4ef6-bc8b-87ecabe481de" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Exam/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Exam/.idea/workspace.xml" />
+    </list>
+    <ignored path="Exam.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Exam" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Exam/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1482414131000" expanded="true" signature="6:148" ph="..." />
+                <marker date="1482414131000" expanded="true" signature="164:528" ph="{...}" />
+                <marker date="1482414131000" expanded="true" signature="200:526" ph="{...}" />
+                <marker date="1482414131000" expanded="true" signature="215:299" ph="/// Главная точка входа для приложения. ... " />
+                <marker date="1482414131000" expanded="true" signature="354:520" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Student.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exam/Models/Student.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <marker date="1482416130000" expanded="true" signature="6:43" ph="..." />
+                <marker date="1482416130000" expanded="true" signature="93:606" ph="{...}" />
+                <marker date="1482416130000" expanded="true" signature="268:403" ph="{...}" />
+                <marker date="1482416130000" expanded="true" signature="438:600" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExamForm.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exam/View/ExamForm.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="49" column="15" lean-forward="false" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+              <folding>
+                <marker date="1482414785000" expanded="true" signature="6:60" ph="..." />
+                <marker date="1482414785000" expanded="true" signature="81:1819" ph="{...}" />
+                <marker date="1482414785000" expanded="true" signature="131:1812" ph="{...}" />
+                <marker date="1482414785000" expanded="true" signature="212:303" ph="{...}" />
+                <marker date="1482414785000" expanded="true" signature="365:494" ph="{...}" />
+                <marker date="1482414785000" expanded="true" signature="553:697" ph="{...}" />
+                <marker date="1482414785000" expanded="true" signature="753:864" ph="{...}" />
+                <marker date="1482414785000" expanded="true" signature="934:1046" ph="{...}" />
+                <marker date="1482414785000" expanded="true" signature="1092:1324" ph="{...}" />
+                <marker date="1482414785000" expanded="true" signature="1141:1311" ph="{...}" />
+                <marker date="1482414785000" expanded="true" signature="1358:1586" ph="{...}" />
+                <marker date="1482414785000" expanded="true" signature="1408:1574" ph="{...}" />
+                <marker date="1482414785000" expanded="true" signature="1662:1805" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Deanery.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exam/Models/Deanery.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="12" column="69" lean-forward="false" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="69" />
+              <folding>
+                <marker date="1482415682000" expanded="true" signature="6:81" ph="..." />
+                <marker date="1482415682000" expanded="true" signature="104:1182" ph="{...}" />
+                <marker date="1482415682000" expanded="true" signature="131:1180" ph="{...}" />
+                <marker date="1482415682000" expanded="true" signature="435:530" ph="{...}" />
+                <marker date="1482415682000" expanded="true" signature="556:631" ph="{...}" />
+                <marker date="1482415682000" expanded="true" signature="664:715" ph="{...}" />
+                <marker date="1482415682000" expanded="true" signature="768:1174" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Helper.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exam/Helpers/Helper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1482414965000" expanded="true" signature="63:735" ph="{...}" />
+                <marker date="1482414965000" expanded="true" signature="258:316" ph="{...}" />
+                <marker date="1482414965000" expanded="true" signature="356:414" ph="{...}" />
+                <marker date="1482414965000" expanded="true" signature="453:512" ph="{...}" />
+                <marker date="1482414965000" expanded="true" signature="546:604" ph="{...}" />
+                <marker date="1482414965000" expanded="true" signature="641:729" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExamController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exam/Controllers/ExamController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="52" />
+              <folding>
+                <marker date="1482416108000" expanded="true" signature="6:93" ph="..." />
+                <marker date="1482416108000" expanded="true" signature="121:1531" ph="{...}" />
+                <marker date="1482416108000" expanded="true" signature="155:1529" ph="{...}" />
+                <marker date="1482416108000" expanded="true" signature="435:710" ph="{...}" />
+                <marker date="1482416108000" expanded="true" signature="773:1144" ph="{...}" />
+                <marker date="1482416108000" expanded="true" signature="1070:1134" ph="{...}" />
+                <marker date="1482416108000" expanded="true" signature="1208:1521" ph="{...}" />
+                <marker date="1482416108000" expanded="true" signature="1365:1464" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>btnS</find>
+      <find>b</find>
+      <find>fini</find>
+      <find>studentsMarks</find>
+      <find>btn_st</find>
+      <find>object _lock</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../../Exam/ExamForm.Designer.cs" />
+        <option value="$PROJECT_DIR$/../../Exam/ExamForm.cs" />
+        <option value="$PROJECT_DIR$/../../Exam/Program.cs" />
+        <option value="$PROJECT_DIR$/../../Exam/View/ExamForm.Designer.cs" />
+        <option value="$PROJECT_DIR$/../../Exam/View/ExamForm.cs" />
+        <option value="$PROJECT_DIR$/../../Exam/Controllers/ExamController.cs" />
+        <option value="$PROJECT_DIR$/../../Exam/Helper/Helper.cs" />
+        <option value="$PROJECT_DIR$/../../Exam/Models/Deanery.cs" />
+        <option value="$PROJECT_DIR$/../../Exam/Helpers/Helper.cs" />
+        <option value="$PROJECT_DIR$/../../Exam/Models/Student.cs" />
+        <option value="$PROJECT_DIR$/Exam/Program.cs" />
+        <option value="$PROJECT_DIR$/Exam/View/ExamForm.Designer.cs" />
+        <option value="$PROJECT_DIR$/Exam/View/ExamForm.cs" />
+        <option value="$PROJECT_DIR$/Exam/Helpers/Helper.cs" />
+        <option value="$PROJECT_DIR$/Exam/Models/Deanery.cs" />
+        <option value="$PROJECT_DIR$/Exam/Controllers/ExamController.cs" />
+        <option value="$PROJECT_DIR$/Exam/Models/Student.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="896" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exam (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exam" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Exam/Exam.csproj" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="Default" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Exam/bin/Debug/Exam.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exam/bin/Debug" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d716ed4-8312-4ef6-bc8b-87ecabe481de" name="Default" comment="" />
+      <created>1482017676226</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1482017676226</updated>
+      <workItem from="1482017679259" duration="1276000" />
+      <workItem from="1482054314187" duration="4554000" />
+      <workItem from="1482064864920" duration="298000" />
+      <workItem from="1482065548221" duration="91000" />
+      <workItem from="1482065934785" duration="3352000" />
+      <workItem from="1482070206747" duration="768000" />
+      <workItem from="1482071105952" duration="969000" />
+      <workItem from="1482072120778" duration="138000" />
+      <workItem from="1482072757610" duration="977000" />
+      <workItem from="1482413927230" duration="2665000" />
+      <workItem from="1482446590443" duration="606000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15694000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="896" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors in solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UnitTesting" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15719467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08464329" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1898428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../Exam/View/ExamForm.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Models/Student.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Models/Deanery.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Helpers/Helper.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Controllers/ExamController.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/View/ExamForm.Designer.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/View/ExamForm.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Models/Student.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Models/Deanery.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Controllers/ExamController.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/View/ExamForm.Designer.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/View/ExamForm.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Models/Student.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Models/Deanery.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Controllers/ExamController.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/View/ExamForm.Designer.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/View/ExamForm.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Models/Student.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Models/Deanery.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Controllers/ExamController.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/View/ExamForm.Designer.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/View/ExamForm.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Models/Student.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Models/Deanery.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/View/ExamForm.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Models/Student.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Models/Deanery.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Controllers/ExamController.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/View/ExamForm.Designer.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/View/ExamForm.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/View/ExamForm.Designer.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/View/ExamForm.Designer.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/View/ExamForm.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Controllers/ExamController.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Models/Deanery.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Helpers/Helper.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Exam/Models/Student.cs" />
+    <entry file="file://$PROJECT_DIR$/Exam/Helpers/Helper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1482414965000" expanded="true" signature="63:735" ph="{...}" />
+            <marker date="1482414965000" expanded="true" signature="258:316" ph="{...}" />
+            <marker date="1482414965000" expanded="true" signature="356:414" ph="{...}" />
+            <marker date="1482414965000" expanded="true" signature="453:512" ph="{...}" />
+            <marker date="1482414965000" expanded="true" signature="546:604" ph="{...}" />
+            <marker date="1482414965000" expanded="true" signature="641:729" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/Models/Student.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1482416130000" expanded="true" signature="6:43" ph="..." />
+            <marker date="1482416130000" expanded="true" signature="93:606" ph="{...}" />
+            <marker date="1482416130000" expanded="true" signature="268:403" ph="{...}" />
+            <marker date="1482416130000" expanded="true" signature="438:600" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/View/ExamForm.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1482414299000" expanded="true" signature="19:3505" ph="{...}" />
+            <marker date="1482414299000" expanded="true" signature="48:3503" ph="{...}" />
+            <marker date="1482414299000" expanded="true" signature="63:149" ph="/// Обязательная переменная конструктора. ... " />
+            <marker date="1482414299000" expanded="true" signature="227:422" ph="/// Освободить все используемые ресурсы. ... " />
+            <marker date="1482414299000" expanded="true" signature="478:652" ph="{...}" />
+            <marker date="1482414299000" expanded="true" signature="539:605" ph="{...}" />
+            <marker date="1482414299000" expanded="true" signature="662:3322" ph="Код, автоматически созданный конструктором форм Windows" />
+            <marker date="1482414299000" expanded="true" signature="735:904" ph="/// Требуемый метод для поддержки конструктора — не изменяйте  ... " />
+            <marker date="1482414299000" expanded="true" signature="947:3302" ph="{...}" />
+            <marker date="1482414299000" expanded="true" signature="1205:1248" ph="/* btnStart ... */" />
+            <marker date="1482414299000" expanded="true" signature="1639:1770" ph="/* this.btnStart.Click += new System.EventHandler(this.btnStart_Click); ... */" />
+            <marker date="1482414299000" expanded="true" signature="2104:2151" ph="/* labelExamState ... */" />
+            <marker date="1482414299000" expanded="true" signature="2662:2825" ph="/* this.studentsMarks.SelectedIndexChanged += new System.EventHandler(this.studentsMarks_SelectedIndexChanged); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/View/ExamForm.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="15" lean-forward="false" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+          <folding>
+            <marker date="1482414785000" expanded="true" signature="6:60" ph="..." />
+            <marker date="1482414785000" expanded="true" signature="81:1819" ph="{...}" />
+            <marker date="1482414785000" expanded="true" signature="131:1812" ph="{...}" />
+            <marker date="1482414785000" expanded="true" signature="212:303" ph="{...}" />
+            <marker date="1482414785000" expanded="true" signature="365:494" ph="{...}" />
+            <marker date="1482414785000" expanded="true" signature="553:697" ph="{...}" />
+            <marker date="1482414785000" expanded="true" signature="753:864" ph="{...}" />
+            <marker date="1482414785000" expanded="true" signature="934:1046" ph="{...}" />
+            <marker date="1482414785000" expanded="true" signature="1092:1324" ph="{...}" />
+            <marker date="1482414785000" expanded="true" signature="1141:1311" ph="{...}" />
+            <marker date="1482414785000" expanded="true" signature="1358:1586" ph="{...}" />
+            <marker date="1482414785000" expanded="true" signature="1408:1574" ph="{...}" />
+            <marker date="1482414785000" expanded="true" signature="1662:1805" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/Models/Deanery.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="69" lean-forward="false" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="69" />
+          <folding>
+            <marker date="1482415682000" expanded="true" signature="6:81" ph="..." />
+            <marker date="1482415682000" expanded="true" signature="104:1182" ph="{...}" />
+            <marker date="1482415682000" expanded="true" signature="131:1180" ph="{...}" />
+            <marker date="1482415682000" expanded="true" signature="435:530" ph="{...}" />
+            <marker date="1482415682000" expanded="true" signature="556:631" ph="{...}" />
+            <marker date="1482415682000" expanded="true" signature="664:715" ph="{...}" />
+            <marker date="1482415682000" expanded="true" signature="768:1174" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/Controllers/ExamController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="52" />
+          <folding>
+            <marker date="1482416108000" expanded="true" signature="6:93" ph="..." />
+            <marker date="1482416108000" expanded="true" signature="121:1531" ph="{...}" />
+            <marker date="1482416108000" expanded="true" signature="155:1529" ph="{...}" />
+            <marker date="1482416108000" expanded="true" signature="435:710" ph="{...}" />
+            <marker date="1482416108000" expanded="true" signature="773:1144" ph="{...}" />
+            <marker date="1482416108000" expanded="true" signature="1070:1134" ph="{...}" />
+            <marker date="1482416108000" expanded="true" signature="1208:1521" ph="{...}" />
+            <marker date="1482416108000" expanded="true" signature="1365:1464" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exam/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1482414131000" expanded="true" signature="6:148" ph="..." />
+            <marker date="1482414131000" expanded="true" signature="164:528" ph="{...}" />
+            <marker date="1482414131000" expanded="true" signature="200:526" ph="{...}" />
+            <marker date="1482414131000" expanded="true" signature="215:299" ph="/// Главная точка входа для приложения. ... " />
+            <marker date="1482414131000" expanded="true" signature="354:520" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
